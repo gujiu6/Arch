@@ -189,3 +189,26 @@ vim.cmd("autocmd! TermOpen term://* lua set_terminal_keymaps()")
 -- map("v", "<F9>", ":lua Snacks.terminal.toggle()<CR>", opt)
 -- map("t", "<F9>", "<C-\\><C-n><cmd>lua Snacks.terminal.toggle()<CR>", opt)
 
+
+
+-- ai
+local opts = { noremap=true, silent=true }
+-- 选中代码改写
+vim.keymap.set("v", "<leader>ai", ":CodeCompanionInline<CR>", opts)
+-- 选中代码解释
+vim.keymap.set("v", "<leader>ae", ":CodeCompanionExplain<CR>", opts)
+-- 聊天
+vim.keymap.set("n", "<leader>ac", ":CodeCompanionChat<CR>", opts)
+
+
+
+
+
+
+
+
+
+
+
+
+
