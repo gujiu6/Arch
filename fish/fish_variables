@@ -1,0 +1,8 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export --path _NT_SYMBOL_PATH:srv\x2a/home/gujiu/symbols\x2ahttps\x1e//msdl\x2emicrosoft\x2ecom/download/symbols
+SETUVAR __fish_initialized:4300
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR --export fish_user_paths:/home/gujiu/\x2elocal/bin\x1e/home/gujiu/ida\x2dpro\x2d9\x2e3\x1e/home/XiaoCRQ/Work/UserScript
